@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue; 
+}
+
+#searchForm {
+  margin-bottom: 20px;
+  border: 2px solid #000; /* フォーム全体に枠線を追加 */
+  padding: 10px;
+  background-color: #fff; /* 背景色を白に */
+}
+
+#searchForm select, #searchForm button {
+  font-size: 25px;
+  padding: 25px;
+  margin-right: 10px;
+  border: 1px solid #000; /* 各要素に枠線を追加 */
+}
+
+#searchForm button {
+  font-size: 25px;
+  padding: 8px;
+  background-color: #4CAF50; /* ボタンの背景色を変更 */
+  color: white; /* ボタンの文字色を白に */
+  border: none; /* ボタンの枠線を削除 */
+  cursor: pointer; /* カーソルをポインターに */
+}
+
+#searchForm button:hover {
+  background-color: #45a049; /* ホバー時のボタンの背景色を変更 */
+}
+
+#results div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9; /* 結果の背景色を変更 */
+}
+
+h1 {
+  margin-bottom: 0px; /* タイトルとフォームの間に隙間を追加 */
+  padding-bottom: 0px; /* タイトルと線の間に隙間を追加 */
+}
+
+.lines {
+  border-bottom: 2px solid #000; /* 線のスタイルを設定 */
+  margin-bottom: 5px; /* 線の間に隙間を追加 */
+}
+
+.line1 {
+  width: 25%; /* 1本目の線の長さ */
+}
+
+.line2 {
+  width: 62.5%; /* 2本目の線の長さ */
+}
+
+.line3 {
+  width: 100%; /* 3本目の線の長さ */
+}

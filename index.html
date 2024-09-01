@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script type="text/javascript" src="modules/lodash.min.js"></script>
+  <script type="text/javascript" src="modules/test-boilerplate.js"></script>
+  <title>帳票検索システム</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>帳票検索システム</h1>
+  <div class="lines line1"></div>
+  <div class="lines line2"></div>
+  <div class="lines line3"></div>
+  <form id="searchForm">
+    <select id="categorySelect">
+      <option value="">帳票の種類を選択してください</option>
+      <option value="blueprints">設計図</option>
+      <option value="workdrawings">工作図</option>
+      <option value="partdrawings">部品図</option>
+    </select>
+    <select id="sizeSelect">
+      <option value="">サイズを選択してください</option>
+      <option value="carA">車種A</option>
+      <option value="carB">車種B</option>
+      <option value="carC">車種C</option>
+    </select>
+    <button type="submit">検索</button>
+  </form>
+  <div id="results"></div>
+  <script src="script.js"></script>
+</body>
+</html>
